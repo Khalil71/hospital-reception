@@ -1,4 +1,4 @@
-# Lindera code challenge
+# hospital reception
 
 ## Getting Started
 
