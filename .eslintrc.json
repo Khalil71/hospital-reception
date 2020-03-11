@@ -1,0 +1,27 @@
+{
+    "extends": [
+      "prettier",
+      "airbnb-base/legacy",
+      "plugin:mocha/recommended",
+      "plugin:security/recommended",
+      "plugin:node/recommended"
+    ],
+    "plugins": ["require-path-exists", "import", "prettier", "mocha", "security"],
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "node": true,
+      "mocha": true
+    },
+    "rules": {
+      "require-path-exists/notEmpty": 2,
+      "require-path-exists/tooManyArguments": 2,
+      "require-path-exists/exists": 2,
+      "vars-on-top": 0,
+      "node/no-unpublished-require": 0,
+      "func-names": 0,
+      "eslint-disable security/detect-object-injection": 0
+    }
+  }
